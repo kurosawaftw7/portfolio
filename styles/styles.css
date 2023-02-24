@@ -1,18 +1,25 @@
 <style>
         .img {
-            border-color: rgb(255, 148, 77)
+            border-style: solid;
+            border-color: rgb(255, 148, 77);
+            
+        }
+
+        h1 {
+            border-style: solid;
+            border-color: hsl(204, 100%, 50%);
         }
 
         body {
             background-color: hsl(120, 60%, 55%);
         }
 
-        header {
-            
+        p {
+            color: rgb(153, 0, 153);
         }
 
-        p {
-            color: rgb(153, 0, 153)
+        footer {
+            background-color: rgb(255, 255, 0);
         }
 
         <style>
