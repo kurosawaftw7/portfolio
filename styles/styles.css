@@ -7,10 +7,12 @@
             background-color: hsl(120, 60%, 55%);
         }
 
+        header {
+            
+        }
+
         p {
             color: rgb(153, 0, 153)
         }
-
-        
 
         <style>
