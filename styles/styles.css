@@ -28,6 +28,14 @@
             border-right: 2px;
         }
 
+        a.hover {
+            color: coral;
+        }
+
+        a.visited {
+            color: aquamarine;
+        }
+
         body {
             background-color: hsl(120, 60%, 55%);
         }
