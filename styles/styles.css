@@ -28,6 +28,10 @@
             border-right: 2px;
         }
 
+        a {
+            color: black;
+        }
+        
         a.hover {
             color: coral;
         }
