@@ -28,12 +28,9 @@
             border-right: 2px;
         }
 
-        a {
+        a:link, a:hover {
+            background-color: azure;
             color: black;
-        }
-        
-        a.hover {
-            color: coral;
         }
 
         body {
