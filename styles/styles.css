@@ -41,6 +41,12 @@
             border-right: 2px;
         }
 
+        a {
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+        }
+
         a:link, a:hover {
             background-color: azure;
             color: black;
