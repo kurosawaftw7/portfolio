@@ -7,8 +7,14 @@
         
         img {
             border-style: solid;
-            border-color: rgb(255, 148, 77);
+            border-color: antiquewhite;
             border-width: 2px;
+        }
+
+        img:hover {
+            border-style: solid;
+            border-color: rgb(255, 148, 77);
+            border-width: 4px;
         }
 
         h1 {
