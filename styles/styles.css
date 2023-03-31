@@ -17,8 +17,8 @@
             border-width: 4px;
         }
 
-        img:nth-child(odd) {
-            
+        article:nth-child(odd){
+            background-color: rgba(199, 50, 33, 0.301);
         }
 
         h1 {
@@ -46,9 +46,14 @@
         }
 
         a {
-            transition-property: width;
+            font-size: 2rem;
+            transition-property: font-size;
             transition-duration: 2s;
             transition-timing-function: linear;
+        }
+
+        a:hover {
+            font-size: 5rem;
         }
 
         a:link, a:hover {
