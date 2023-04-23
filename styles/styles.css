@@ -69,6 +69,11 @@
             color: rgb(153, 0, 153);
         }
 
+        label {
+            font-size: 3rem;
+            align-items: center;
+        }
+
         footer {
             background-color: rgb(255, 255, 0);
             border-style: dotted;
