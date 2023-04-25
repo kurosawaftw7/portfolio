@@ -45,9 +45,10 @@
             border-right: 2px;
         }
 
-        button, input, textarea {
+        input, textarea {
             font-family: Arial, Helvetica, sans-serif;
             align-items: center;
+            font-size: 2rem;
         }
 
         a {
