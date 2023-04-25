@@ -47,6 +47,7 @@
 
         button, input, textarea {
             font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
         }
 
         a {
