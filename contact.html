@@ -8,19 +8,23 @@
     <body>
         <article>
             <h1>Contact Form</h1>
-            <div class="container">
+            <div class="contactcontainer">
             <form method="GET">
-                <label>Name:</label>
+                <label class="formlabel">Name:</label>
                     <input type="text" name="contactName">
-                <label>Contact Email:</label>
+                <label class="formlabel">Contact Email:</label>
                     <input type="text" name="contactEmail">
-                <label>Time Frame for Job if Applicable:</label>
+                <label class="formlabel">Time Frame for Job if Applicable:</label>
                     <input type="text" name="contactTime">
-                <label>Job Type:</label>
-                    <input type="radio" name="" value="Screenwriting">
-                    <label class="label2" for="screenwriting">Screenwriting</label>
-                    <input type="radio" name="" value="Web Design">
-                    <label class="label2" for="webdesign">Web Design</label>
+                <label class="formlabel">Job Type:</label>
+                    
+                    <label class="radiolabel" for="screenwriting">
+                        <input type="radio" name="" value="Screenwriting">
+                        Screenwriting</label>
+                    
+                    <label class="radiolabel" for="webdesign">
+                        <input type="radio" name="" value="Web Design">
+                        Web Design</label>
             </form>
             </div>
         </article>

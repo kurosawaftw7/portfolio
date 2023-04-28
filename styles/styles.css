@@ -82,9 +82,9 @@
 
         p {
             color: rgb(153, 0, 153);
-        }
+        }    
 
-        label {
+        .formlabel {
             font-size: 2rem;
             display: flex;
             flex-direction: column;
@@ -92,10 +92,11 @@
             text-align: center;
         }
 
-        .label2 {
+        .radiolabel {
             font-size: 1rem;
-            display: flex;
-            flex-direction: row;
+            display: inline-block;
+            vertical-align: top;
+            margin: auto;
         }
 
         footer {
