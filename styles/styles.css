@@ -45,11 +45,11 @@
             border-right: 2px;
         }
 
-        input, button {
+        input {
+            display: flex;
+            margin: 0 auto;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 1.2rem;
-            justify-content: center;
-            align-items: center;
         }
 
         a {
@@ -88,7 +88,14 @@
             font-size: 2rem;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .label2 {
+            font-size: 1rem;
+            display: flex;
+            flex-direction: row;
         }
 
         footer {
