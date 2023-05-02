@@ -54,9 +54,6 @@
 
         a {
             font-size: 2rem;
-            transition-property: font-size;
-            transition-duration: 2s;
-            transition-timing-function: linear;
             align-items: center;
         }
 
